@@ -1,0 +1,227 @@
+/************
+* init Styles
+**************/
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background: #6e238f; /* Old browsers */
+	background: -moz-linear-gradient(top, #6e238f 0%, #92248d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #6e238f 0%,#92248d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #6e238f 0%,#92248d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e238f', endColorstr='#92248d',GradientType=0 ); /* IE6-9 */
+	color: #ffffff;
+}
+
+h1 {
+	font-size: 42px;
+}
+
+h3 {
+	font-size: 18px;
+	color: #412396
+}
+
+/********************
+* Bootstrap Override
+*********************/
+
+.row {
+	max-width: 997px;
+}
+
+.col-sm {
+	padding: 0 5px;
+}
+
+a, a:hover {
+	color: #fff;
+	text-decoration: none !important
+}
+
+.nav-tabs {
+	border: 0;
+}
+
+.nav-tabs .nav-link {
+	border: 0
+}
+
+.nav-pills .nav-link {
+	border-radius: 0;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+color: #412396;
+background-color: #00ffd5;
+}
+
+.card {
+	border: 0;
+	border-radius: 0
+}
+
+.card-header:first-child {
+	border-radius: 0;
+}
+
+.card-header {
+	padding: .75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: #412396;
+	border-bottom: 1px solid #412396;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+}
+
+.card-body {
+	background: #eef1f2;
+}
+
+/************
+*  Header
+**************/
+
+.header {
+	margin-top: 5%;
+	max-width: 770px;
+}
+
+/************
+* Content
+**************/
+
+.content {
+	margin-top: 50px;
+}
+
+.side-menu {
+	min-height: 50px;
+	background: #412396;
+}
+
+.content-wrap {
+	background: #fff;
+	color: #434a4c;
+	font-size: 14px;
+	min-height: 50px;
+	padding: 15px 72px;
+	padding-bottom: 30px;
+}
+
+
+
+.articles {
+	margin: 45px 0px;
+}
+
+
+.article {
+	padding-top: 20px;
+}
+
+.events {
+	margin: 35px 0px;
+}
+
+.event-button {
+	border: 1px solid #412396;
+	padding: 10px 15px;
+	width: 100%;
+	text-align: center;
+	float: left;
+	color: #412396;
+}
+
+
+/*Menu*/
+.menu {
+	padding-top: 50%;
+	text-align: center;
+	font-size: 22px;
+}
+
+
+@media screen and (max-width: 992px) {
+  	.menu {
+  		padding-top: 15px;
+		padding-bottom: 15px;
+  	}
+
+  	.content-wrap {
+		background: #fff;
+		color: #434a4c;
+		font-size: 14px;
+		min-height: 50px;
+		padding: 15px 15px;
+		padding-bottom: 30px;
+	}
+
+	.article-card {
+		margin-bottom: 15px;
+	}
+}
+
+
+/************
+* Social
+**************/
+
+.social {
+	margin-top: 15px
+}
+
+.social-wrap {
+	padding: 10px 25px;
+	padding-right: 0
+}
+
+.social-list {
+	background: rgba(255, 255, 255, 0.18);
+	padding: 5px 30px;
+	list-style: none;
+	display: inline;
+	float: right;
+	margin: 0;
+}
+
+.social-list li {
+	float: left
+}
+
+.social-list img {
+	width: 40px;
+	height: 40px;
+	padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
